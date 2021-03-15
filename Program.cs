@@ -20,7 +20,7 @@ namespace Cebolinha
             Console.Write("\n");
 
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine($"{frase.Replace("r", "l").Replace("R", "L")}");
+            Console.WriteLine($"{frase.Replace("r", "l").Replace("rr", "l").Replace("R", "L").Replace("RR", "L")}");
             Console.ResetColor();
             Console.WriteLine();
 
